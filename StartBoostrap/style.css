@@ -9,6 +9,8 @@ html {
 #section1 {
   background-color: #212529;
   padding: 16px;
+  position: fixed;
+  width: 100%;
 }
 #section1 .a1 {
   color: #fff;
@@ -19,7 +21,7 @@ html {
   font-size: 20px;
 
   margin-left: 180px;
-  margin-right: 900px;
+  margin-right: 1200px;
   text-decoration: none;
 }
 #section1 .a2 {
@@ -30,10 +32,14 @@ html {
   font-size: 16px;
   padding: 8px;
   text-decoration: none;
+  transition: 0.4ms;
+}
+#section1 .a2:hover {
+  color: #fff;
 }
 #section2 {
   background-color: #1c77fd;
-  padding: 250px 0 96px;
+  padding: 350px 0 96px;
   font-size: 16px;
 }
 #section2 .h1 {
@@ -42,7 +48,7 @@ html {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-left: 570px;
+  margin-left: 700px;
   margin-bottom: 10px;
   margin-top: -160px;
 }
@@ -52,7 +58,7 @@ html {
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   color: #fff;
-  margin-left: 520px;
+  margin-left: 650px;
   margin-bottom: 50px;
 }
 #section2 .btn1 {
@@ -62,7 +68,7 @@ html {
   color: #000;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
-  margin-left: 750px;
+  margin-left: 850px;
   margin-top: -103px;
   text-decoration: none;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
@@ -79,10 +85,10 @@ html {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-left: 270px;
+  margin-left: 350px;
 }
 #section3 .p1 {
-  margin-left: 250px;
+  margin-left: 350px;
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 1rem;
@@ -92,7 +98,7 @@ html {
   line-height: 30px;
 }
 #section3 .ul1 {
-  margin-left: 270px;
+  margin-left: 350px;
   font-size: 16px;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
@@ -101,6 +107,7 @@ html {
 
 #section4 {
   padding: 150px;
+  background-color: #f8f9fa;
 }
 
 #section4 .h2 {
@@ -109,10 +116,10 @@ html {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-left: 270px;
+  margin-left: 350px;
 }
 #section4 .p1 {
-  margin-left: 250px;
+  margin-left: 350px;
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 1rem;
@@ -126,7 +133,7 @@ html {
   padding: 150px;
 }
 #section5 .p1 {
-  margin-left: 250px;
+  margin-left: 350px;
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 1rem;
@@ -141,7 +148,7 @@ html {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-left: 270px;
+  margin-left: 350px;
 }
 #section6 {
   background-color: #212529;
@@ -150,5 +157,5 @@ html {
 #section6 .p1 {
   color: #fff;
   font-size: 16px;
-  margin-left: 700px;
+  margin-left: 840px;
 }
