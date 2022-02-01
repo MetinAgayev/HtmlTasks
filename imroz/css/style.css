@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clear {
+  clear: both;
+}
+#section1 {
+  background-image: url("http://rainbowit.net/themes/imroz/wp-content/uploads/2021/10/bg-image-26.jpg");
+  padding-bottom: 300px;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+
+#section1 .left {
+  width: 50%;
+  float: left;
+  padding: 20px 30px;
+}
+
+#section1 .left .img {
+  height: 66px;
+  margin: auto;
+}
+img {
+  width: 18%;
+  height: auto;
+}
+.right a {
+  text-decoration: none;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 20px;
+  padding: 20px 0;
+  display: inline-block;
+  color: #fff;
+  transition: 0.4ms;
+}
+a:hover {
+  color: #a42e2b;
+}
+.btn:hover {
+  background-color: #a42e2b;
+}
+#section1 .btn {
+  padding: 16px 40px;
+  border: 2px solid #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 16px 40px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  color: #fff;
+}
+
+#section1 .right {
+  float: right;
+  width: 50%;
+  padding: 20px 20px;
+  font-family: Poppins, sans-serif;
+  margin: auto;
+}
+.textcenter {
+  text-align: center;
+  padding: 80px 0 0;
+  font-size: 18px;
+}
+.textcenter .h1 {
+  font-size: 100px;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #fd4766 79.69%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-size: 100px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+}
+.textcenter .p1 {
+  font-size: 24px;
+  padding: 0 196px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  line-height: 40px;
+  padding: 0 16%;
+  font-weight: 300;
+}
+
+.slidebtn .a1 {
+  padding: 26px 60px;
+  border: 2px solid #a42e2b;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #a42e2b;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: 0.4s;
+}
+.slidebtn .a1:hover {
+  background-color: transparent;
+}
+
+#section2 {
+  padding: 100px 100px 100px;
+  text-align: center;
+  margin: 30px;
+  overflow: auto;
+}
+#section2 .part {
+  padding: 50px;
+  width: 30%;
+  float: left;
+  background-color: #f6f6f6;
+  margin: 30px 0 0;
+  margin: 20px 20px;
+  border-radius: 10px;
+}
+#section2 .part .icon {
+  font-size: 45px;
+  font-weight: 400;
+  margin-bottom: 23px;
+  color: #a42e2b;
+  border-radius: 100%;
+  float: left;
+}
+
+#section2 .text h3 {
+  font-size: 18px;
+  line-height: 1.67;
+  font-size: 20px;
+  margin: 0 0 19px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+}
+#section2 .text p {
+  color: gray;
+  font-size: 18px;
+  line-height: 1.67;
+}

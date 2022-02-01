@@ -163,25 +163,50 @@ div {
   width: 30%;
   margin-right: 10px;
   float: left;
+  margin-bottom: 1.5rem ;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: 0.75rem;
+  margin-top:var(--bs-gutter-y);
 }
 
 #section5 {
-  padding: 96px 0;
-  text-align: center;
+  background-color: #F8F9FA;
+    padding: 6rem;
+    overflow: auto;
+    text-align: center;
 }
 #section5 .container {
   padding: 0 12px;
   max-width: 1320px;
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-left:0;
   margin-right: auto;
   margin-left: auto;
 }
 
-#section5 .box {
+#section5 .top {
+  width: 30%;
+margin-left: 25px
+;
+ 
+}
+#section5 .box
+{
+ width: 30%;
+ margin-left: 25px;
+}
+#section5 .slider .box .top .img
+{
   width: 100%;
-  height: 100%;
+}
+#section5 .slider .box
+{
+  width: 31%;
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 #section5 .h1 {
   font-size: 2.5rem;
