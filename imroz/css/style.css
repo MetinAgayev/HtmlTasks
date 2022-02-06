@@ -11,6 +11,7 @@
   padding-bottom: 300px;
   background-repeat: no-repeat;
   overflow: auto;
+  background-attachment: fixed;
 }
 
 #section1 .left {
@@ -27,7 +28,7 @@ img {
   width: 18%;
   height: auto;
 }
-.right a {
+a{
   text-decoration: none;
   background: transparent;
   font-size: 16px;
@@ -113,7 +114,7 @@ a:hover {
 }
 
 #section2 {
-  padding: 100px 100px 100px;
+  padding: 50px 100px 100px;
   text-align: center;
   margin: 30px;
   overflow: auto;
